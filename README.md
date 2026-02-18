@@ -1,4 +1,4 @@
-# [Project Name] 🚀
+# TeleG Downloader 🚀
 ### Telegram Channel Viewer (Portable & Standalone)
 ### مشاهده کانال‌های تلگرام بدون نیاز به نصب کتابخانه
 
@@ -10,7 +10,7 @@
 ## 🇬🇧 English Description
 
 ### What is this?
-**[Project Name]** is a standalone Python tool designed to fetch and view **public Telegram channel** posts during internet restrictions (National Internet).
+**TeleG Downloder** is a standalone Python tool designed to fetch and view **public Telegram channel** posts during internet restrictions (National Internet).
 It uses a bundled `curl` tool to route traffic through Google's infrastructure, bypassing blocks without needing a VPN.
 
 ### ✨ Features
@@ -26,7 +26,7 @@ It uses a bundled `curl` tool to route traffic through Google's infrastructure, 
 2.  **Open Terminal:** Open a command prompt/terminal inside the project folder.
 3.  **Run:** Type the following command and press Enter:
     ```bash
-    python main.py
+    telegram main.py
     ```
 4.  **Enjoy:** Enter the channel username (e.g., `durov`) to read the latest posts.
 
@@ -37,7 +37,7 @@ It uses a bundled `curl` tool to route traffic through Google's infrastructure, 
 ## 🇮🇷 توضیحات فارسی
 
 ### این پروژه چیست؟
-**[نام پروژه]** ابزاری ساده و سبک برای خواندن مطالب **کانال‌های عمومی تلگرام** در زمان قطعی اینترنت (نت ملی) است.
+ابزاری ساده و سبک برای خواندن مطالب **کانال‌های عمومی تلگرام** در زمان قطعی اینترنت (نت ملی) است.
 این برنامه از ابزار داخلی (که در پوشه قرار داده شده) استفاده می‌کند تا از طریق گوگل به محتوای تلگرام دسترسی پیدا کند، بنابراین نیازی به فیلترشکن ندارد.
 
 ### ✨ ویژگی‌ها
@@ -55,4 +55,4 @@ It uses a bundled `curl` tool to route traffic through Google's infrastructure, 
 ۴. گزینه `Open PowerShell window here` یا `Open Command window here` را انتخاب کنید.
 ۵. دستور زیر را بنویسید و اینتر بزنید:
    ```bash
-   python main.py
+   python telegram.py
