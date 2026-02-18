@@ -1,6 +1,6 @@
 # TeleG Downloader 🚀
-### Telegram Channel Viewer (Portable & Standalone)
-### مشاهده کانال‌های تلگرام بدون نیاز به نصب کتابخانه
+### Telegram Channel Viewer on Interanet
+### مشاهده کانال‌های تلگرام در دوران قطعی اینترنت 
 
 ![Language](https://img.shields.io/badge/Language-Python%203-blue)
 ![Dependencies](https://img.shields.io/badge/Dependencies-Bundled-success)
