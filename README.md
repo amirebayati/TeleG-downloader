@@ -1,69 +1,54 @@
-# TeleG Downloader 🐍
-### Telegram Channel Viewer via Google Infrastructure (Python Client)
-### مشاهده کانال‌های تلگرام بر بستر گوگل (نسخه پایتون)
+# TeleG Downloader 📦
+### Telegram Channel Viewer (Portable Edition)
+### مشاهده کانال‌های تلگرام بدون نیاز به نصب کتابخانه
 
 ![Language](https://img.shields.io/badge/Language-Python%203-blue)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![Dependencies](https://img.shields.io/badge/Dependencies-Included-success)
 
 ---
 
 ## 🇬🇧 English Description
 
 ### What is this?
-**[Project Name]** is a Python-based tool designed to fetch and display posts from **public Telegram channels** during internet restrictions (National Internet/Intranet). It routes traffic through Google's infrastructure, allowing access even when Telegram servers are blocked.
+**[Project Name]** is a standalone Python tool to fetch and view **public Telegram channel** posts during internet restrictions.
+It uses bundled tools (like `curl`) to route traffic through Google, so you don't need a VPN.
+
+### ✨ Features
+* **Zero Dependencies:** No need to run `pip install`. All required tools are included in the folder.
+* **Lightweight:** Runs on standard Python.
+* **Bypass Censorship:** Works when only Google services are accessible.
 
 ### 📋 Prerequisites
-* **Python 3.6+** must be installed on your system.
-* Internet connection (accessible to Google services).
+* Just **Python 3.x** installed on your system.
 
-### 🚀 Installation & Usage
-
-1.  **Install Python:**
-    If you don't have Python installed, download it from [python.org](https://www.python.org/downloads/).
-
-2.  **Clone/Download:**
-    Download this repository or clone it using git:
-    ```bash
-    git clone [https://github.com/your-username/your-repo.git](https://github.com/your-username/your-repo.git)
-    cd your-repo
-    ```
-
-3.  **Install Dependencies:**
-    Open your terminal/command prompt in the project folder and run:
-    ```bash
-    pip install -r requirements.txt
-    ```
-    *(Note: If you don't have a requirements file, you might need to manually install libraries like `requests`: `pip install requests`)*
-
-4.  **Run the Script:**
-    Execute the main Python file:
+### 🚀 How to Run
+1.  **Download & Extract:** Download the project zip file and extract it.
+2.  **Run:** Double-click on `run.bat` (if you created one) or open a terminal in the folder and type:
     ```bash
     python main.py
     ```
-
-5.  **Enter Channel ID:**
-    Follow the on-screen prompts to enter the target channel username (e.g., `durov`).
+3.  **Enjoy:** Enter the channel username and read the posts.
 
 ---
 
 ## 🇮🇷 توضیحات فارسی
 
 ### این پروژه چیست؟
-**[نام پروژه]** یک ابزار پایتونی است که برای شرایط «اینترنت ملی» یا اختلالات شدید اینترنت طراحی شده است. زمانی که تلگرام مسدود است اما گوگل باز است، این برنامه با استفاده از زیرساخت‌های گوگل به عنوان واسطه، مطالب **کانال‌های عمومی تلگرام** را دریافت کرده و به شما نمایش می‌دهد.
+**[نام پروژه]** ابزاری ساده برای خواندن مطالب **کانال‌های عمومی تلگرام** در زمان قطعی اینترنت (نت ملی) است.
+این برنامه از ابزارهای داخلی (که در پوشه قرار داده شده) استفاده می‌کند تا از طریق گوگل به محتوای تلگرام دسترسی پیدا کند.
+
+### ✨ ویژگی‌ها
+* **بدون نیاز به نصب کتابخانه:** نیازی به دستور `pip install` یا اینترنت برای دانلود پکیج‌ها نیست. همه چیز (مثل `curl`) داخل پوشه برنامه هست.
+* **کم‌حجم و سریع:** فقط کافیست پایتون روی سیستم شما باشد.
+* **عبور از فیلتر:** تا زمانی که گوگل باز باشد، این برنامه کار می‌کند.
 
 ### 📋 پیش‌نیازها
-* **پایتون نسخه ۳ (Python 3.x)** باید روی سیستم شما نصب باشد.
-* دسترسی به اینترنت (در حدی که گوگل باز شود).
+* تنها چیزی که نیاز دارید، نصب بودن **پایتون (Python 3)** روی سیستم است.
 
-### 🚀 راهنمای نصب و اجرا
-
-۱. **نصب پایتون:**
-   اگر پایتون را ندارید، آن را از [سایت رسمی پایتون](https://www.python.org/downloads/) دانلود و نصب کنید. (حتماً گزینه *Add Python to PATH* را موقع نصب بزنید).
-
-۲. **دانلود برنامه:**
-   فایل‌های این پروژه را دانلود کنید و فایل فشرده را در یک پوشه باز کنید (Extract).
-
-۳. **نصب کتابخانه‌های لازم:**
-   در پوشه‌ی برنامه، کلید `Shift` را نگه دارید و کلیک راست کنید، سپس گزینه `Open PowerShell` یا `Open Command Window` را بزنید. دستور زیر را بنویسید و اینتر کنید:
+### 🚀 راهنمای اجرا
+۱. فایل برنامه را دانلود کرده و از حالت فشرده خارج کنید.
+۲. وارد پوشه برنامه شوید.
+۳. روی فضای خالی پوشه `Shift` را نگه دارید و کلیک راست کنید، سپس `Open PowerShell` یا `Command Prompt` را بزنید.
+۴. دستور زیر را بنویسید و اینتر بزنید:
    ```bash
-   pip install -r requirements.txt
+   python main.py
