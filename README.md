@@ -1,76 +1,69 @@
-# TeleG-downloader
-# [Project Name] 🛡️
-### Telegram Channel Viewer via Google Infrastructure
-### مشاهده کانال‌های تلگرام بر بستر گوگل (مناسب دوران نت ملی)
+# TeleG Downloader 🐍
+### Telegram Channel Viewer via Google Infrastructure (Python Client)
+### مشاهده کانال‌های تلگرام بر بستر گوگل (نسخه پایتون)
 
+![Language](https://img.shields.io/badge/Language-Python%203-blue)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-![Platform](https://img.shields.io/badge/Platform-Google%20Apps%20Script%20%2F%20Web-blue)
 
 ---
 
 ## 🇬🇧 English Description
 
 ### What is this?
-**[Project Name]** is a lightweight tool designed to bypass internet restrictions (specifically "National Internet" or Intranet scenarios) where access to global messengers like Telegram is blocked, but Google services remain accessible.
+**[Project Name]** is a Python-based tool designed to fetch and display posts from **public Telegram channels** during internet restrictions (National Internet/Intranet). It routes traffic through Google's infrastructure, allowing access even when Telegram servers are blocked.
 
-By leveraging Google's infrastructure as a proxy, this tool fetches and displays the latest posts from **public Telegram channels** without requiring a VPN or direct connection to Telegram servers.
+### 📋 Prerequisites
+* **Python 3.6+** must be installed on your system.
+* Internet connection (accessible to Google services).
 
-### Key Features
-* **Bypass Censorship:** Works when only Google domains are whitelisted.
-* **No VPN Required:** Uses Google's servers to fetch data.
-* **Read-Only:** View text, images, and media from public channels.
-* **Lightweight:** Runs in the browser (or via Google Apps Script).
+### 🚀 Installation & Usage
 
-### ⚠️ Limitations & Disclaimer
-1.  **Public Channels Only:** This tool cannot access private chats or private channels.
-2.  **No Login:** For security reasons, this tool does not support user login. **Do not attempt to enter your Telegram credentials.**
-3.  **Educational Purpose:** This project is for educational and humanitarian purposes to facilitate information flow during shutdowns.
+1.  **Install Python:**
+    If you don't have Python installed, download it from [python.org](https://www.python.org/downloads/).
 
-### How to Use
-1.  Open the script/link: `[Link to your deployment or script]`
-2.  Enter the **Username** of the public channel (e.g., `durov`).
-3.  Click "Load" to view the latest posts.
+2.  **Clone/Download:**
+    Download this repository or clone it using git:
+    ```bash
+    git clone [https://github.com/your-username/your-repo.git](https://github.com/your-username/your-repo.git)
+    cd your-repo
+    ```
+
+3.  **Install Dependencies:**
+    Open your terminal/command prompt in the project folder and run:
+    ```bash
+    pip install -r requirements.txt
+    ```
+    *(Note: If you don't have a requirements file, you might need to manually install libraries like `requests`: `pip install requests`)*
+
+4.  **Run the Script:**
+    Execute the main Python file:
+    ```bash
+    python main.py
+    ```
+
+5.  **Enter Channel ID:**
+    Follow the on-screen prompts to enter the target channel username (e.g., `durov`).
 
 ---
 
 ## 🇮🇷 توضیحات فارسی
 
 ### این پروژه چیست؟
-**[نام پروژه]** ابزاری است برای زمان‌هایی که اینترنت محدود (ملی) شده است. در شرایطی که دسترسی به تلگرام و اینترنت بین‌الملل قطع است اما سرویس‌های گوگل (مانند جستجوگر گوگل، جیمیل یا گوگل درایو) همچنان باز هستند، این ابزار به کار می‌آید.
+**[نام پروژه]** یک ابزار پایتونی است که برای شرایط «اینترنت ملی» یا اختلالات شدید اینترنت طراحی شده است. زمانی که تلگرام مسدود است اما گوگل باز است، این برنامه با استفاده از زیرساخت‌های گوگل به عنوان واسطه، مطالب **کانال‌های عمومی تلگرام** را دریافت کرده و به شما نمایش می‌دهد.
 
-این برنامه از سرورهای گوگل به عنوان واسطه استفاده می‌کند تا آخرین پست‌های **کانال‌های عمومی تلگرام** را دریافت کرده و به شما نمایش دهد.
+### 📋 پیش‌نیازها
+* **پایتون نسخه ۳ (Python 3.x)** باید روی سیستم شما نصب باشد.
+* دسترسی به اینترنت (در حدی که گوگل باز شود).
 
-### ویژگی‌ها
-* ✅ **عبور از فیلترینگ:** کارکرد حتی در زمان قطع کامل اینترنت بین‌الملل (به شرط باز بودن گوگل).
-* ✅ **بدون نیاز به VPN:** چون ترافیک از سمت گوگل می‌آید، نیازی به فیلترشکن سمت کاربر نیست.
-* ✅ **نمایش محتوا:** قابلیت نمایش متن و تصاویر پست‌ها.
+### 🚀 راهنمای نصب و اجرا
 
-### ⚠️ محدودیت‌ها و هشدار امنیتی
-1.  **فقط کانال‌های عمومی:** این ابزار فقط می‌تواند کانال‌های Public را باز کند و به پیوی‌ها یا گروه‌های خصوصی دسترسی ندارد.
-2.  **امنیت:** این ابزار صرفاً یک «نمایش‌دهنده» (Viewer) است. **به هیچ وجه** اطلاعات اکانت تلگرام خود را وارد نکنید و انتظار لاگین کردن نداشته باشید.
-3.  **ناپایداری احتمالی:** از آنجا که این روش یک راهکار (Workaround) است، ممکن است در صورت تغییر سیاست‌های گوگل یا تلگرام، موقتاً از کار بیفتد.
+۱. **نصب پایتون:**
+   اگر پایتون را ندارید، آن را از [سایت رسمی پایتون](https://www.python.org/downloads/) دانلود و نصب کنید. (حتماً گزینه *Add Python to PATH* را موقع نصب بزنید).
 
-### نحوه استفاده
-1.  وارد لینک زیر شوید (یا اسکریپت را در گوگل اپس اسکریپت اجرا کنید):
-    `[لینک پروژه یا دکمه دیپلوی]`
-2.  آیدی کانال مورد نظر را بدون @ وارد کنید (مثلاً: `varzesh3`).
-3.  دکمه دریافت را بزنید و مطالب را بخوانید.
+۲. **دانلود برنامه:**
+   فایل‌های این پروژه را دانلود کنید و فایل فشرده را در یک پوشه باز کنید (Extract).
 
----
-
-## 🛠 Installation / نصب و راه‌اندازی (برای توسعه‌دهندگان)
-
-If you want to host this yourself:
-اگر می‌خواهید خودتان این را هاست کنید:
-
-1.  Go to [Google Apps Script](https://script.google.com/).
-2.  Create a new project.
-3.  Copy the code from `code.gs` in this repository.
-4.  Deploy as Web App -> Access: **Anyone**.
-5.  Use the generated URL.
-
-## 🤝 Contribution
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## 📄 License
-[MIT](https://choosealicense.com/licenses/mit/)
+۳. **نصب کتابخانه‌های لازم:**
+   در پوشه‌ی برنامه، کلید `Shift` را نگه دارید و کلیک راست کنید، سپس گزینه `Open PowerShell` یا `Open Command Window` را بزنید. دستور زیر را بنویسید و اینتر کنید:
+   ```bash
+   pip install -r requirements.txt
