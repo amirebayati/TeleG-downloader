@@ -26,7 +26,7 @@ It uses a bundled `curl` tool to route traffic through Google's infrastructure, 
 2.  **Open Terminal:** Open a command prompt/terminal inside the project folder.
 3.  **Run:** Type the following command and press Enter:
     ```bash
-    telegram main.py
+    python telegram.py channleName
     ```
 4.  **Enjoy:** Enter the channel username (e.g., `durov`) to read the latest posts.
 
@@ -55,4 +55,4 @@ It uses a bundled `curl` tool to route traffic through Google's infrastructure, 
 ۴. گزینه `Open PowerShell window here` یا `Open Command window here` را انتخاب کنید.
 ۵. دستور زیر را بنویسید و اینتر بزنید:
    ```bash
-   python telegram.py
+   python telegram.py channelName
